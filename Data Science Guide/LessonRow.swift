@@ -9,7 +9,9 @@
 import SwiftUI
 
 struct LessonRow: View {
+    
     var lesson: Lesson
+    
     var body: some View {
         HStack {
             Image(lesson.imageName)

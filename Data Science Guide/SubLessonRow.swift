@@ -9,15 +9,20 @@
 import SwiftUI
 
 struct SubLessonRow: View {
+    
+    var lesson: Lesson
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(lesson.imageName)
+                .resizable()
+                .frame(width: 50, height: 50)
+                /*.scaledToFit() */
+                .clipShape(Circle())
+                .background(Circle()
+                    .foregroundColor(lesson.mlcategory.color))
+            Text(lesson.name).font(.system(size:25))
+            Spacer()
+    }
     }
 }
-
-#if DEBUG
-struct SubLessonRow_Previews: PreviewProvider {
-    static var previews: some View {
-        SubLessonRow()
-    }
-}
-#endif

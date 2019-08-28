@@ -1,6 +1,6 @@
 //
 //  PlayerList.swift
-//  NBA Player Fun
+//  Data Science Guide
 //
 //  Created by patrick long on 8/13/19.
 //  Copyright © 2019 patrick long. All rights reserved.
@@ -12,7 +12,7 @@ struct LessonList: View {
     var body: some View {
         NavigationView {
             List(lesson) {lesson in
-                NavigationLink(destination: LessonView(lesson: lesson)) {
+                NavigationLink(destination: SubLessonList()) {
                     LessonRow(lesson: lesson)
                 }
     }
@@ -22,4 +22,17 @@ struct LessonList: View {
 }
 }
 
+/*struct LessonList: View {
+    var body: some View {
+        NavigationView {
+            List(lesson) {lesson in
+                NavigationLink(destination: LessonView(lesson: lesson)) {
+                    LessonRow(lesson: lesson)
+                }
+    }
+            .navigationBarTitle(Text("Data Science Guide"),
+    displayMode: .large)
+    }
+}
+}*/
 
