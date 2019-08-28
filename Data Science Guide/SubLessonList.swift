@@ -8,16 +8,29 @@
 
 import SwiftUI
 
+
 struct SubLessonList: View {
+    var body: some View {
+        NavigationView {
+            List(sublesson) {sublesson in
+                NavigationLink(destination: SubLessonView(sublesson: sublesson)) {
+                    SubLessonRow(sublesson: sublesson)
+                }
+    }
+    }
+}
+}
+
+/*struct SubLessonList: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
     }
-}
-
+}*/
+/*
 #if DEBUG
 struct SubLessonList_Previews: PreviewProvider {
     static var previews: some View {
         SubLessonList()
     }
 }
-#endif
+#endif*/

@@ -10,19 +10,21 @@ import SwiftUI
 
 struct SubLessonRow: View {
     
-    var lesson: Lesson
+    var sublesson: SubLesson
     
     var body: some View {
         HStack {
-            Image(lesson.imageName)
+            Image(sublesson.imageName)
                 .resizable()
                 .frame(width: 50, height: 50)
                 /*.scaledToFit() */
                 .clipShape(Circle())
                 .background(Circle()
-                    .foregroundColor(lesson.mlcategory.color))
-            Text(lesson.name).font(.system(size:25))
+                    .foregroundColor(sublesson.mlcategory.color))
+            Text(sublesson.name).font(.system(size:25))
             Spacer()
     }
     }
 }
+
+

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2220DC2E231610A300C67525 /* SubLessonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DC2D231610A300C67525 /* SubLessonList.swift */; };
 		2220DC302316131800C67525 /* SubLessonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DC2F2316131800C67525 /* SubLessonRow.swift */; };
+		2220DC32231616F100C67525 /* SubLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DC31231616F100C67525 /* SubLesson.swift */; };
+		2220DC342316180D00C67525 /* SubLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220DC332316180D00C67525 /* SubLessonView.swift */; };
 		2277B39A2315F87E0063A7E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2277B3992315F87E0063A7E7 /* AppDelegate.swift */; };
 		2277B39C2315F87E0063A7E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2277B39B2315F87E0063A7E7 /* SceneDelegate.swift */; };
 		2277B3A02315F8830063A7E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2277B39F2315F8830063A7E7 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		2220DC2D231610A300C67525 /* SubLessonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubLessonList.swift; sourceTree = "<group>"; };
 		2220DC2F2316131800C67525 /* SubLessonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubLessonRow.swift; sourceTree = "<group>"; };
+		2220DC31231616F100C67525 /* SubLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubLesson.swift; sourceTree = "<group>"; };
+		2220DC332316180D00C67525 /* SubLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubLessonView.swift; sourceTree = "<group>"; };
 		2277B3962315F87E0063A7E7 /* Data Science Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Data Science Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2277B3992315F87E0063A7E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2277B39B2315F87E0063A7E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,8 +77,10 @@
 				2277B3AE2315F8C10063A7E7 /* LessonList.swift */,
 				2277B3B02315F8C10063A7E7 /* LessonView.swift */,
 				2277B3B52315F9FF0063A7E7 /* StatText.swift */,
+				2220DC31231616F100C67525 /* SubLesson.swift */,
 				2220DC2F2316131800C67525 /* SubLessonRow.swift */,
 				2220DC2D231610A300C67525 /* SubLessonList.swift */,
+				2220DC332316180D00C67525 /* SubLessonView.swift */,
 				2277B39B2315F87E0063A7E7 /* SceneDelegate.swift */,
 				2277B3992315F87E0063A7E7 /* AppDelegate.swift */,
 				2277B39F2315F8830063A7E7 /* Assets.xcassets */,
@@ -166,7 +172,9 @@
 			files = (
 				2220DC2E231610A300C67525 /* SubLessonList.swift in Sources */,
 				2277B3B12315F8C10063A7E7 /* Lesson.swift in Sources */,
+				2220DC32231616F100C67525 /* SubLesson.swift in Sources */,
 				2277B39A2315F87E0063A7E7 /* AppDelegate.swift in Sources */,
+				2220DC342316180D00C67525 /* SubLessonView.swift in Sources */,
 				2277B39C2315F87E0063A7E7 /* SceneDelegate.swift in Sources */,
 				2277B3B22315F8C10063A7E7 /* LessonList.swift in Sources */,
 				2220DC302316131800C67525 /* SubLessonRow.swift in Sources */,
